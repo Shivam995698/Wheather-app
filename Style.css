@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    padding:0;
+}
+.cointainer{
+    width: 100%;
+    height: 100vh;
+    background-color: maroon;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.weather_cointainer{
+    color:white;
+}
+.temp{
+    font-size:4.5em;
+}
+.search_area{
+    padding:1rem;
+    background-color:transparent;
+    font-size:1.1rem;
+    border-bottom:2px solid black;
+}
+nav form button{
+    background-color:white;
+    margin-top:1rem;
+    font-size:1.1rem;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+
